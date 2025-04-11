@@ -1,0 +1,20 @@
+## list cidades
+GET http://localhost:3000/cidade
+
+
+
+## list cidades
+GET http://localhost:3000/cidade/1
+
+
+## create cidades
+POST http://localhost:3000/cidade
+content-type: application/json
+
+{
+  "id": "1",
+  "nome": "São Paulo",
+  "uf_id": "SP",
+}
+
+
